@@ -16,6 +16,7 @@ export const Video: React.FC<Props> = (props) => {
     }, []);
 
     const handle = () => {
+
       setIsKonec(true);
     }
 

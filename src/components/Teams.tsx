@@ -14,6 +14,7 @@ const VideoPlayer: React.FC = () => {
         return () => clearInterval(intervalId);
     }, []);
 
+
     const handleEnded = () => {
         console.log("Konec");
     };
